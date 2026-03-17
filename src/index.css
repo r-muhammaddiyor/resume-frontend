@@ -11,7 +11,9 @@
 }
 
 body {
-  @apply text-ink;
+  @apply text-ink font-body antialiased;
+  background-image: theme("backgroundImage.hero-gradient");
+  min-height: 100vh;
 }
 
 .glass {
@@ -59,6 +61,33 @@ body {
 .card {
   @apply rounded-3xl p-6 shadow-soft border border-white/70 bg-white/80;
   backdrop-filter: blur(14px);
+}
+
+.badge {
+  @apply rounded-full border border-white/70 bg-white/80 px-3 py-1 text-[11px] font-semibold text-steel shadow-soft;
+}
+
+.pdf-only {
+  display: none;
+}
+
+.pdf-export .print-area {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.pdf-export .glass,
+.pdf-export .card,
+.pdf-export .surface {
+  backdrop-filter: none !important;
+}
+
+.pdf-export .pdf-only {
+  display: block;
+}
+
+.pdf-export .no-pdf {
+  display: none;
 }
 
 .scrollbar-thin::-webkit-scrollbar {

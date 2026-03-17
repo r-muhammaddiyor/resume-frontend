@@ -17,16 +17,18 @@ function SortableItem({ id, label, children }) {
   };
 
   return (
-    <div ref={setNodeRef} style={style} className={clsx("relative", isDragging && "opacity-80")}> 
-      <button
-        type="button"
-        className="absolute right-4 top-4 z-10 rounded-full bg-white/80 px-2 py-1 text-xs text-steel shadow-soft"
-        {...attributes}
-        {...listeners}
-        aria-label={label}
-      >
-        {label}
-      </button>
+    <div ref={setNodeRef} style={style} className={clsx("space-y-2", isDragging && "opacity-80")}>
+      <div className="flex justify-end">
+        <button
+          type="button"
+          className="badge"
+          {...attributes}
+          {...listeners}
+          aria-label={label}
+        >
+          {label}
+        </button>
+      </div>
       {children}
     </div>
   );
