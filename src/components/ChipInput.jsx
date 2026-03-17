@@ -24,11 +24,11 @@ export default function ChipInput({ value = [], onChange, placeholder, addLabel 
             {chip}
             <button
               type="button"
-              className="ml-2 text-steel"
+              className="ml-2 text-steel/70 hover:text-ink"
               onClick={() => removeChip(chip)}
               aria-label={t("actions.remove")}
             >
-              ?
+              ×
             </button>
           </span>
         ))}

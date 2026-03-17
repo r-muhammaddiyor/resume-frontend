@@ -4,22 +4,43 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Sora", "Noto Sans JP", "Noto Sans SC", "Noto Sans", "sans-serif"],
-        body: ["Manrope", "Noto Sans", "Noto Sans JP", "Noto Sans SC", "sans-serif"],
+        heading: [
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "SF Pro Display",
+          "SF Pro Text",
+          "system-ui",
+          "Segoe UI",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+        ],
+        body: [
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "SF Pro Text",
+          "system-ui",
+          "Segoe UI",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+        ],
       },
       colors: {
         ink: "#0B1220",
-        steel: "#5A6B85",
-        frost: "#F2F6FF",
-        glass: "rgba(255, 255, 255, 0.6)",
-        ocean: "#1B6EF3",
-        mint: "#31C5A1",
-        sunrise: "#FFB876",
-        haze: "#E8EEF9",
+        steel: "#607089",
+        frost: "#F5F7FB",
+        glass: "rgba(255, 255, 255, 0.72)",
+        ocean: "#0A84FF",
+        mint: "#30D158",
+        sunrise: "#FF9F0A",
+        haze: "#E6ECF6",
       },
       boxShadow: {
-        glass: "0 20px 60px rgba(18, 38, 85, 0.12)",
-        soft: "0 8px 24px rgba(13, 23, 43, 0.12)",
+        glass: "0 24px 60px rgba(15, 23, 42, 0.12)",
+        soft: "0 12px 30px rgba(15, 23, 42, 0.12)",
       },
       borderRadius: {
         xl: "20px",
@@ -27,7 +48,8 @@ export default {
         '3xl': "36px",
       },
       backgroundImage: {
-        "hero-gradient": "radial-gradient(circle at top left, rgba(49, 197, 161, 0.25), transparent 45%), radial-gradient(circle at top right, rgba(27, 110, 243, 0.2), transparent 50%), linear-gradient(180deg, #F7FAFF 0%, #EDF2FA 100%)",
+        "hero-gradient":
+          "radial-gradient(circle at 20% 10%, rgba(10, 132, 255, 0.14), transparent 45%), radial-gradient(circle at 80% 0%, rgba(48, 209, 88, 0.12), transparent 50%), linear-gradient(180deg, #F7F9FC 0%, #EEF2F8 100%)",
       },
       keyframes: {
         float: {
