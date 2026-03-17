@@ -14,7 +14,7 @@ export async function downloadPdf() {
 
     await new Promise((resolve) => setTimeout(resolve, 60));
 
-    const scale = Math.min(3, window.devicePixelRatio ? window.devicePixelRatio * 1.5 : 3);
+    const scale = Math.min(4, Math.max(2, window.devicePixelRatio ? window.devicePixelRatio * 2 : 3));
     const canvas = await html2canvas(element, {
       scale,
       useCORS: true,
@@ -41,6 +41,8 @@ export async function downloadPdf() {
       const ctx = pageCanvas.getContext("2d");
       if (!ctx) break;
 
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = "high";
       ctx.drawImage(
         canvas,
         0,
@@ -56,7 +58,7 @@ export async function downloadPdf() {
       const imgData = pageCanvas.toDataURL("image/png");
       if (pageIndex > 0) pdf.addPage();
       const imgHeightMm = (sliceHeight / canvas.width) * pageWidth;
-      pdf.addImage(imgData, "PNG", 0, 0, pageWidth, imgHeightMm, undefined, "FAST");
+      pdf.addImage(imgData, "PNG", 0, 0, pageWidth, imgHeightMm);
 
       offsetY += sliceHeight;
       pageIndex += 1;

@@ -21,7 +21,7 @@ const Creative = React.memo(function Creative({ resume }) {
 
   const Section = ({ title, children }) => (
     <section className="space-y-3">
-      <p className="text-xs uppercase tracking-[0.3em] text-sunrise">{title}</p>
+      <p className="resume-section-title text-sunrise">{title}</p>
       <div className="space-y-2 text-sm text-ink">{children}</div>
     </section>
   );
@@ -104,7 +104,7 @@ const Creative = React.memo(function Creative({ resume }) {
           <Section title={t("sections.skills")}>
             <div className="flex flex-wrap gap-2">
               {resume.skills.map((skill) => (
-                <span key={skill} className="rounded-full bg-white/70 px-3 py-1 text-xs">
+                <span key={skill} className="resume-chip">
                   {skill}
                 </span>
               ))}

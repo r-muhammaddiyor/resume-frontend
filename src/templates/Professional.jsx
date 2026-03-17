@@ -22,7 +22,7 @@ const Professional = React.memo(function Professional({ resume }) {
     <section className="mt-8">
       <div className="flex items-center gap-3">
         <div className="h-px w-10 bg-ink" />
-        <p className="text-xs uppercase tracking-[0.3em] text-ink">{title}</p>
+        <p className="resume-section-title text-ink">{title}</p>
       </div>
       <div className="mt-4 space-y-3 text-sm text-ink">{children}</div>
     </section>
@@ -85,7 +85,7 @@ const Professional = React.memo(function Professional({ resume }) {
         <Section title={t("sections.skills")}>
           <div className="flex flex-wrap gap-2">
             {resume.skills.map((skill) => (
-              <span key={skill} className="rounded-full border border-haze px-3 py-1 text-xs">
+              <span key={skill} className="resume-chip">
                 {skill}
               </span>
             ))}

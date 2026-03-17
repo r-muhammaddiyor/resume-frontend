@@ -67,6 +67,18 @@ body {
   @apply rounded-full border border-white/70 bg-white/90 px-3 py-1 text-[11px] font-semibold text-steel shadow-soft;
 }
 
+.resume-section-title {
+  @apply text-[11px] uppercase tracking-[0.32em] text-steel font-semibold;
+}
+
+.resume-meta {
+  @apply text-xs text-steel;
+}
+
+.resume-chip {
+  @apply inline-flex items-center rounded-full border border-haze bg-haze/70 px-3 py-1 text-[11px] text-ink;
+}
+
 .pdf-only {
   display: none;
 }
@@ -74,12 +86,24 @@ body {
 .pdf-export .print-area {
   box-shadow: none !important;
   border: none !important;
+  background: white !important;
 }
 
 .pdf-export .glass,
 .pdf-export .card,
 .pdf-export .surface {
   backdrop-filter: none !important;
+}
+
+.pdf-export .shadow-soft,
+.pdf-export .shadow-glass {
+  box-shadow: none !important;
+}
+
+.pdf-export .resume-page {
+  width: 794px !important;
+  max-width: 794px !important;
+  margin: 0 auto !important;
 }
 
 .pdf-export .pdf-only {
