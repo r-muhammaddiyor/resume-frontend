@@ -21,7 +21,7 @@ const Modern = React.memo(function Modern({ resume }) {
 
   const Section = ({ title, children }) => (
     <section className="space-y-3">
-      <p className="resume-section-title">{title}</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-ocean">{title}</p>
       <div className="space-y-2 text-sm text-ink">{children}</div>
     </section>
   );
@@ -104,7 +104,7 @@ const Modern = React.memo(function Modern({ resume }) {
           <Section title={t("sections.skills")}>
             <div className="flex flex-wrap gap-2">
               {resume.skills.map((skill) => (
-                <span key={skill} className="resume-chip">
+                <span key={skill} className="rounded-full bg-haze px-3 py-1 text-xs">
                   {skill}
                 </span>
               ))}
@@ -142,7 +142,7 @@ const Modern = React.memo(function Modern({ resume }) {
 
   return (
     <div className="font-body text-ink">
-      <div className="rounded-3xl border border-white/80 bg-[#F3F6FB] p-6">
+      <div className="rounded-3xl bg-frost p-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h1 className="text-3xl font-heading font-semibold">{profile.fullName}</h1>

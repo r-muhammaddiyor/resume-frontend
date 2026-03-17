@@ -20,7 +20,7 @@ const Minimal = React.memo(function Minimal({ resume }) {
 
   const Section = ({ title, children }) => (
     <section className="mt-6">
-      <p className="resume-section-title">{title}</p>
+      <p className="text-xs uppercase tracking-[0.3em] text-steel">{title}</p>
       <div className="mt-3 space-y-3 text-sm text-ink">{children}</div>
     </section>
   );
@@ -92,7 +92,7 @@ const Minimal = React.memo(function Minimal({ resume }) {
         <Section title={t("sections.skills")}>
           <div className="flex flex-wrap gap-2">
             {resume.skills.map((skill) => (
-              <span key={skill} className="resume-chip">
+              <span key={skill} className="rounded-full border border-haze px-3 py-1 text-xs">
                 {skill}
               </span>
             ))}

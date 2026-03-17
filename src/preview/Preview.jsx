@@ -12,7 +12,7 @@ export default function Preview() {
         <p className="section-title">{t("app.preview")}</p>
       </div>
       <div id="resume-preview" className="print-area rounded-3xl border border-white/80 bg-white shadow-glass p-6">
-        <div className="resume-page mx-auto w-full max-w-[794px] min-h-[1123px]">
+        <div className="mx-auto w-full max-w-[794px] min-h-[1123px]">
           <TemplateRenderer resume={resume} />
         </div>
       </div>
