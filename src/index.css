@@ -67,6 +67,27 @@ body {
   @apply rounded-full border border-white/70 bg-white/90 px-3 py-1 text-[11px] font-semibold text-steel shadow-soft;
 }
 
+.resume-preview-frame {
+  @apply rounded-3xl border border-white/80 bg-white shadow-glass p-6;
+}
+
+.resume-page {
+  width: 794px;
+  max-width: 794px;
+  min-height: 1123px;
+  margin: 0 auto;
+  padding: 28px;
+  background: #ffffff;
+}
+
+.resume-export {
+  position: fixed;
+  left: -10000px;
+  top: 0;
+  width: 794px;
+  background: #ffffff;
+}
+
 .resume-section-title {
   @apply text-[11px] uppercase tracking-[0.32em] text-steel font-semibold;
 }
@@ -100,10 +121,10 @@ body {
   box-shadow: none !important;
 }
 
-.pdf-export .resume-page {
-  width: 794px !important;
-  max-width: 794px !important;
-  margin: 0 auto !important;
+.pdf-export .resume-preview-frame {
+  box-shadow: none !important;
+  border: none !important;
+  background: white !important;
 }
 
 .pdf-export .pdf-only {

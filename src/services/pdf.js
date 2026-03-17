@@ -2,7 +2,7 @@ import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
 
 export async function downloadPdf() {
-  const element = document.getElementById("resume-preview");
+  const element = document.getElementById("resume-export");
   if (!element) return;
 
   document.body.classList.add("pdf-export");
