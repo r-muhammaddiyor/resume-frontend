@@ -1,0 +1,79 @@
+﻿{
+  "app": {
+    "name": "Glass Resume Studio",
+    "tagline": "几分钟内制作简历",
+    "builder": "简历编辑器",
+    "builderHint": "填写左侧表单，右侧预览会实时更新。",
+    "preview": "实时预览"
+  },
+  "nav": {
+    "export": "下载PDF",
+    "language": "语言"
+  },
+  "status": {
+    "loading": "加载中...",
+    "loadingTemplate": "模板加载中..."
+  },
+  "sections": {
+    "profile": "个人信息",
+    "experience": "工作经历",
+    "education": "教育背景",
+    "skills": "技能",
+    "languages": "语言",
+    "projects": "项目",
+    "certificates": "证书",
+    "socials": "社交链接",
+    "custom": "自定义板块"
+  },
+  "fields": {
+    "fullName": "姓名",
+    "title": "职位 / 头衔",
+    "about": "关于我",
+    "email": "邮箱",
+    "phone": "电话",
+    "location": "地点",
+    "website": "网站",
+    "company": "公司",
+    "role": "角色",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "summary": "简介",
+    "highlights": "亮点",
+    "school": "学校",
+    "degree": "学位",
+    "skill": "技能",
+    "language": "语言",
+    "level": "水平",
+    "project": "项目",
+    "certificate": "证书",
+    "link": "链接",
+    "issuer": "颁发机构",
+    "date": "日期",
+    "label": "标签",
+    "customTitle": "板块标题",
+    "customItem": "条目",
+    "photo": "照片"
+  },
+  "actions": {
+    "add": "添加",
+    "remove": "删除",
+    "uploadPhoto": "上传照片",
+    "addSection": "添加板块",
+    "addItem": "添加条目",
+    "reorder": "排序"
+  },
+  "template": {
+    "title": "模板",
+    "pickHint": "请选择简历版式风格。",
+    "selected": "已选择",
+    "choose": "选择",
+    "minimal": "极简",
+    "modern": "现代",
+    "professional": "专业",
+    "creative": "创意",
+    "minimalDesc": "简洁、紧凑、重点突出。",
+    "modernDesc": "带柔和侧栏的均衡布局。",
+    "professionalDesc": "正式的经典结构。",
+    "creativeDesc": "视觉强调的大胆布局。"
+  }
+}

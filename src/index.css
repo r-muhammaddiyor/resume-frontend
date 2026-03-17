@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply text-ink;
+}
+
+.glass {
+  @apply bg-glass shadow-glass border border-white/60;
+  backdrop-filter: blur(18px);
+}
+
+.surface {
+  @apply bg-white/80 shadow-soft border border-white/70;
+  backdrop-filter: blur(12px);
+}
+
+.section-title {
+  @apply text-sm uppercase tracking-[0.2em] text-steel font-semibold;
+}
+
+.input {
+  @apply w-full rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm text-ink shadow-soft outline-none transition focus:border-ocean/40 focus:ring-2 focus:ring-ocean/20;
+}
+
+.textarea {
+  @apply w-full rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm text-ink shadow-soft outline-none transition focus:border-ocean/40 focus:ring-2 focus:ring-ocean/20;
+}
+
+.chip {
+  @apply rounded-full bg-white/70 px-3 py-1 text-xs font-medium text-ink shadow-soft;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition;
+}
+
+.btn-primary {
+  @apply btn bg-ink text-white shadow-soft hover:opacity-90;
+}
+
+.btn-secondary {
+  @apply btn bg-white/70 text-ink border border-white/70 shadow-soft hover:bg-white;
+}
+
+.btn-ghost {
+  @apply btn bg-transparent text-ink hover:bg-white/60;
+}
+
+.card {
+  @apply rounded-3xl p-6 shadow-soft border border-white/70 bg-white/80;
+  backdrop-filter: blur(14px);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(11, 18, 32, 0.2);
+  border-radius: 999px;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  body {
+    background: white !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .print-area section,
+  .print-area .card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

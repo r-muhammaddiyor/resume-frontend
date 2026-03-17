@@ -1,0 +1,79 @@
+﻿{
+  "app": {
+    "name": "Glass Resume Studio",
+    "tagline": "Dakikalar içinde CV oluşturun",
+    "builder": "CV Oluşturucu",
+    "builderHint": "Soldaki formu doldurun, sağdaki önizleme anında güncellenir.",
+    "preview": "Canlı Önizleme"
+  },
+  "nav": {
+    "export": "PDF indir",
+    "language": "Dil"
+  },
+  "status": {
+    "loading": "Yükleniyor...",
+    "loadingTemplate": "Şablon yükleniyor..."
+  },
+  "sections": {
+    "profile": "Profil",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "skills": "Yetenekler",
+    "languages": "Diller",
+    "projects": "Projeler",
+    "certificates": "Sertifikalar",
+    "socials": "Sosyal Bağlantılar",
+    "custom": "Özel Bölümler"
+  },
+  "fields": {
+    "fullName": "Ad Soyad",
+    "title": "Pozisyon / Ünvan",
+    "about": "Hakkımda",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "location": "Konum",
+    "website": "Web sitesi",
+    "company": "Şirket",
+    "role": "Rol",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "summary": "Özet",
+    "highlights": "Öne çıkanlar",
+    "school": "Okul",
+    "degree": "Derece",
+    "skill": "Yetenek",
+    "language": "Dil",
+    "level": "Seviye",
+    "project": "Proje",
+    "certificate": "Sertifika",
+    "link": "Bağlantı",
+    "issuer": "Kuruluş",
+    "date": "Tarih",
+    "label": "Etiket",
+    "customTitle": "Bölüm Başlığı",
+    "customItem": "Madde",
+    "photo": "Fotoğraf"
+  },
+  "actions": {
+    "add": "Ekle",
+    "remove": "Sil",
+    "uploadPhoto": "Fotoğraf yükle",
+    "addSection": "Bölüm ekle",
+    "addItem": "Madde ekle",
+    "reorder": "Sırala"
+  },
+  "template": {
+    "title": "Şablonlar",
+    "pickHint": "CV düzen stilini seçin.",
+    "selected": "Seçili",
+    "choose": "Seç",
+    "minimal": "Minimal",
+    "modern": "Modern",
+    "professional": "Profesyonel",
+    "creative": "Yaratıcı",
+    "minimalDesc": "Temiz, odaklı ve kompakt.",
+    "modernDesc": "Yumuşak kenar sütunlu dengeli düzen.",
+    "professionalDesc": "Resmi ve klasik yapı.",
+    "creativeDesc": "Görsel vurgulu cesur düzen."
+  }
+}

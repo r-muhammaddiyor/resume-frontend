@@ -1,0 +1,79 @@
+﻿{
+  "app": {
+    "name": "Glass Resume Studio",
+    "tagline": "Создайте резюме за минуты",
+    "builder": "Конструктор резюме",
+    "builderHint": "Заполните форму слева, и предпросмотр обновится сразу.",
+    "preview": "Живой предпросмотр"
+  },
+  "nav": {
+    "export": "Скачать PDF",
+    "language": "Язык"
+  },
+  "status": {
+    "loading": "Загрузка...",
+    "loadingTemplate": "Загрузка шаблона..."
+  },
+  "sections": {
+    "profile": "Профиль",
+    "experience": "Опыт",
+    "education": "Образование",
+    "skills": "Навыки",
+    "languages": "Языки",
+    "projects": "Проекты",
+    "certificates": "Сертификаты",
+    "socials": "Социальные ссылки",
+    "custom": "Пользовательские разделы"
+  },
+  "fields": {
+    "fullName": "Полное имя",
+    "title": "Должность / Титул",
+    "about": "О себе",
+    "email": "Email",
+    "phone": "Телефон",
+    "location": "Локация",
+    "website": "Сайт",
+    "company": "Компания",
+    "role": "Роль",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "summary": "Описание",
+    "highlights": "Достижения",
+    "school": "Учебное заведение",
+    "degree": "Степень",
+    "skill": "Навык",
+    "language": "Язык",
+    "level": "Уровень",
+    "project": "Проект",
+    "certificate": "Сертификат",
+    "link": "Ссылка",
+    "issuer": "Организация",
+    "date": "Дата",
+    "label": "Метка",
+    "customTitle": "Название раздела",
+    "customItem": "Пункт",
+    "photo": "Фото"
+  },
+  "actions": {
+    "add": "Добавить",
+    "remove": "Удалить",
+    "uploadPhoto": "Загрузить фото",
+    "addSection": "Добавить раздел",
+    "addItem": "Добавить пункт",
+    "reorder": "Переместить"
+  },
+  "template": {
+    "title": "Шаблоны",
+    "pickHint": "Выберите стиль оформления резюме.",
+    "selected": "Выбрано",
+    "choose": "Выбрать",
+    "minimal": "Минимал",
+    "modern": "Современный",
+    "professional": "Профессиональный",
+    "creative": "Креативный",
+    "minimalDesc": "Чистый, сдержанный и компактный.",
+    "modernDesc": "Сбалансированная сетка с мягким сайдбаром.",
+    "professionalDesc": "Классическая структура для строгих ролей.",
+    "creativeDesc": "Выразительный стиль с визуальными акцентами."
+  }
+}

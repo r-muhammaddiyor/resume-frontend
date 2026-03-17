@@ -1,0 +1,79 @@
+﻿{
+  "app": {
+    "name": "Glass Resume Studio",
+    "tagline": "Rezyumeni bir necha daqiqada yarating",
+    "builder": "Rezyume konstruktori",
+    "builderHint": "Chap tomondagi formani to'ldiring — preview darhol yangilanadi.",
+    "preview": "Jonli ko'rish"
+  },
+  "nav": {
+    "export": "PDF yuklab olish",
+    "language": "Til"
+  },
+  "status": {
+    "loading": "Yuklanmoqda...",
+    "loadingTemplate": "Shablon yuklanmoqda..."
+  },
+  "sections": {
+    "profile": "Profil",
+    "experience": "Tajriba",
+    "education": "Ta'lim",
+    "skills": "Ko'nikmalar",
+    "languages": "Tillar",
+    "projects": "Loyihalar",
+    "certificates": "Sertifikatlar",
+    "socials": "Ijtimoiy havolalar",
+    "custom": "Maxsus bo'limlar"
+  },
+  "fields": {
+    "fullName": "To'liq ism",
+    "title": "Lavozim / Sarlavha",
+    "about": "Men haqimda",
+    "email": "Email",
+    "phone": "Telefon",
+    "location": "Manzil",
+    "website": "Veb-sayt",
+    "company": "Kompaniya",
+    "role": "Rol",
+    "startDate": "Boshlanish sana",
+    "endDate": "Tugash sana",
+    "summary": "Tavsif",
+    "highlights": "Yutuqlar",
+    "school": "Ta'lim muassasasi",
+    "degree": "Daraja",
+    "skill": "Ko'nikma",
+    "language": "Til",
+    "level": "Daraja",
+    "project": "Loyiha",
+    "certificate": "Sertifikat",
+    "link": "Havola",
+    "issuer": "Tashkilot",
+    "date": "Sana",
+    "label": "Yorliq",
+    "customTitle": "Bo'lim nomi",
+    "customItem": "Band",
+    "photo": "Rasm"
+  },
+  "actions": {
+    "add": "Qo'shish",
+    "remove": "O'chirish",
+    "uploadPhoto": "Rasm yuklash",
+    "addSection": "Bo'lim qo'shish",
+    "addItem": "Band qo'shish",
+    "reorder": "Tartibini o'zgartirish"
+  },
+  "template": {
+    "title": "Shablonlar",
+    "pickHint": "Rezyume uchun uslubni tanlang.",
+    "selected": "Tanlangan",
+    "choose": "Tanlash",
+    "minimal": "Minimal",
+    "modern": "Zamonaviy",
+    "professional": "Professional",
+    "creative": "Ijodiy",
+    "minimalDesc": "Toza, ixcham va e’tiborli.",
+    "modernDesc": "Muvozanatli ko‘rinish va yumshoq sidebar.",
+    "professionalDesc": "Klassik va rasmiy tuzilma.",
+    "creativeDesc": "Yorqin uslub, vizual urg‘u bilan."
+  }
+}

@@ -1,0 +1,79 @@
+﻿{
+  "app": {
+    "name": "Glass Resume Studio",
+    "tagline": "Build a resume in minutes",
+    "builder": "Resume Builder",
+    "builderHint": "Fill in the form and watch the preview update live.",
+    "preview": "Live Preview"
+  },
+  "nav": {
+    "export": "Download PDF",
+    "language": "Language"
+  },
+  "status": {
+    "loading": "Loading...",
+    "loadingTemplate": "Loading template..."
+  },
+  "sections": {
+    "profile": "Profile",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "socials": "Social Links",
+    "custom": "Custom Sections"
+  },
+  "fields": {
+    "fullName": "Full Name",
+    "title": "Position / Title",
+    "about": "About Me",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "website": "Website",
+    "company": "Company",
+    "role": "Role",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "summary": "Summary",
+    "highlights": "Highlights",
+    "school": "School",
+    "degree": "Degree",
+    "skill": "Skill",
+    "language": "Language",
+    "level": "Level",
+    "project": "Project",
+    "certificate": "Certificate",
+    "link": "Link",
+    "issuer": "Issuer",
+    "date": "Date",
+    "label": "Label",
+    "customTitle": "Section Title",
+    "customItem": "Item",
+    "photo": "Photo"
+  },
+  "actions": {
+    "add": "Add",
+    "remove": "Remove",
+    "uploadPhoto": "Upload Photo",
+    "addSection": "Add Section",
+    "addItem": "Add Item",
+    "reorder": "Reorder"
+  },
+  "template": {
+    "title": "Templates",
+    "pickHint": "Choose a layout style for your resume.",
+    "selected": "Selected",
+    "choose": "Choose",
+    "minimal": "Minimal",
+    "modern": "Modern",
+    "professional": "Professional",
+    "creative": "Creative",
+    "minimalDesc": "Clean, focused, and space-efficient.",
+    "modernDesc": "Balanced layout with a soft sidebar.",
+    "professionalDesc": "Formal structure for classic roles.",
+    "creativeDesc": "Bold layout with visual emphasis."
+  }
+}
